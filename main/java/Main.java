@@ -20,6 +20,7 @@ class Surfer {
 
  */
 
+/*
 class Main {
     public static void main(String args[]) {
         int myVar1;
@@ -35,3 +36,30 @@ class Main {
         System.out.println(myVar2);
     }
 }
+
+*/
+
+
+class Main {
+    public static void main(String args[]) {
+        int v;
+        double x;
+
+        v = 10;
+        x = 10.0;
+
+        System.out.println("Poczatkowa wartosc zmiennej v: " + v);
+        System.out.println("Poczatkowa wartosc zmiennej x: " + x);
+
+        System.out.println();
+
+
+        v = v / 4;
+        x = x / 4;
+
+        System.out.println("v po dzieleniu: " + v);
+        System.out.println("x po dzieleniu: " + x);
+
+
+}
+        }
